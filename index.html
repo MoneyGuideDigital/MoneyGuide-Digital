@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Money Guide Digital</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+body{
+  font-family:'Montserrat',sans-serif;
+  color:#fff;
+  background-color:#0a0a0a;
+  overflow-x:hidden;
+}
+
+/* --- Hero Section --- */
+.hero{
+  position:relative;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  background:url('money-guide-bg.jpg') no-repeat center center/cover;
+}
+.hero::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:rgba(0,0,0,0.55);
+}
+.hero-content{
+  position:relative;
+  z-index:2;
+}
+
+/* Gold + Green metallic text */
+h1{
+  font-family:'Merriweather',serif;
+  font-size:64px;
+  background:linear-gradient(90deg,#ffd700,#ffb600);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  text-shadow:0 4px 15px rgba(0,0,0,0.6);
+  margin-bottom:10px;
+}
+h2{
+  color:#00ff7f;
+  font-weight:700;
+  letter-spacing:3px;
+  text-transform:uppercase;
+  font-size:18px;
+  text-shadow:0 2px 10px rgba(0,255,150,0.5);
+}
+
+/* Section under hero */
+section.offers{
+  background:linear-gradient(180deg,#0b0b0b 0%,#111 100%);
+  padding:80px 20px;
+  text-align:center;
+}
+section.offers h3{
+  font-size:28px;
+  margin-bottom:40px;
+  color:#ffd700;
+}
+
+/* Buttons */
+.buttons{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:18px;
+  max-width:400px;
+  margin:0 auto;
+}
+a.btn{
+  display:block;
+  width:100%;
+  padding:14px 24px;
+  font-weight:700;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  text-decoration:none;
+  color:#fff;
+  border-radius:12px;
+  background:linear-gradient(145deg,#004d2b,#00b84f);
+  box-shadow:0 6px 18px rgba(0,255,150,0.25);
+  transition:all .2s ease;
+}
+a.btn:hover{
+  transform:translateY(-3px);
+  box-shadow:0 10px 25px rgba(0,255,150,0.4);
+}
+
+/* Download section */
+section.download{
+  background:#0c0c0c;
+  padding:80px 20px;
+  text-align:center;
+}
+section.download h3{
+  font-size:26px;
+  color:#ffd700;
+  margin-bottom:24px;
+}
+.download a{
+  background:linear-gradient(145deg,#6d00ff,#b200ff);
+  box-shadow:0 6px 18px rgba(120,0,255,0.4);
+}
+
+/* Footer */
+footer{
+  padding:40px 20px;
+  font-size:12px;
+  opacity:.7;
+  text-align:center;
+}
+@media(max-width:600px){
+  h1{font-size:42px;}
+  h2{font-size:14px;}
+}
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-content">
+    <h1>Money Guide Digital</h1>
+    <h2>We Will Show You The Way</h2>
+    <a href="#offers" class="btn" style="margin-top:40px;">Start Exploring</a>
+  </div>
+</section>
+
+<section id="offers" class="offers">
+  <h3>Explore Our Guides & Courses</h3>
+  <div class="buttons">
+    <a class="btn" href="https://www.digistore24.com/redir/638412/BigG101/" target="_blank">The Wealth Builder Blueprint</a>
+    <a class="btn" href="https://www.digistore24.com/redir/638412/BigG101/" target="_blank">The Freedom Code</a>
+    <a class="btn" href="https://www.digistore24.com/redir/372576/BigG101/" target="_blank">Best Guide to Making Money Online</a>
+    <a class="btn" href="https://www.digistore24.com/redir/362778/BigG101/" target="_blank">Click Wealth System</a>
+    <a class="btn" href="https://www.digistore24.com/redir/488392/BigG101/" target="_blank">The Young Millionaire</a>
+    <a class="btn" href="https://www.checkout-ds24.com/redir/550119/BigG101/" target="_blank">The Wealth Signal</a>
+  </div>
+</section>
+
+<section class="download">
+  <h3>Free Download</h3>
+  <a class="btn" href="digital-money-guide.pdf" download>Download “Digital Money – Guide to Success”</a>
+</section>
+
+<footer>
+  Thanks for Using money-guide
+</footer>
+
+</body>
+</html>
